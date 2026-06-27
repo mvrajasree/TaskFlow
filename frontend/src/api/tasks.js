@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://taskflow-production-7560.up.railway.app/api',
 });
 
 export const getTasks = () => API.get('/tasks');
